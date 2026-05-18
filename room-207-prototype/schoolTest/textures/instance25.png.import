@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8ppj4d3ghu76"
 path.s3tc="res://.godot/imported/instance25.png-8dbce9e7c647f921ec6fa03c5aa25963.s3tc.ctex"
+path.etc2="res://.godot/imported/instance25.png-8dbce9e7c647f921ec6fa03c5aa25963.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://schoolTest/textures/instance25.png"
-dest_files=["res://.godot/imported/instance25.png-8dbce9e7c647f921ec6fa03c5aa25963.s3tc.ctex"]
+dest_files=["res://.godot/imported/instance25.png-8dbce9e7c647f921ec6fa03c5aa25963.s3tc.ctex", "res://.godot/imported/instance25.png-8dbce9e7c647f921ec6fa03c5aa25963.etc2.ctex"]
 
 [params]
 
