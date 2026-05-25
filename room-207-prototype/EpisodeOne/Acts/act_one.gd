@@ -16,9 +16,15 @@ func _on_skip_button_pressed() -> void:
 
 # This is the new game button
 func _on_new_game_pressed() -> void:
+	$MainMenuContainer.visible = false
+	$EpisodeSelection.visible = true
 	print("New Game Pressed")
 
 func _on_animation_player_animation_finished(anim_name: StringName) -> void:
 	if anim_name == "Intro":
 		$AnimationPlayer.play("MainMenu")
 		
+# Back button pressed
+func _on_back_pressed() -> void:
+	%EpisodeSelection.visible = false
+	$MainMenuContainer.visible = true

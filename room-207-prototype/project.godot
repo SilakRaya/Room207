@@ -19,8 +19,9 @@ config/icon="uid://bga4rp07gq8wk"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/size/initial_position_type=0
+window/size/borderless=true
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep_width"
 
 [dotnet]
 
